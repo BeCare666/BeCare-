@@ -11,7 +11,7 @@ var payerMa = document.querySelectorAll(".payerMaformationId");
 payerMa.forEach((p) => {
   p.addEventListener("click", function () {
     openKkiapayWidget({
-      amount: "10000",
+      amount: "35000",
       position: "center",
       callback: "javascript:sendmycommandinCentremodale()",
       data: "",
